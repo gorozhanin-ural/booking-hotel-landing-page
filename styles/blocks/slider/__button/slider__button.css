@@ -1,0 +1,8 @@
+.slider__button {
+  inline-size: 8px;
+  block-size: 8px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #fff;
+}

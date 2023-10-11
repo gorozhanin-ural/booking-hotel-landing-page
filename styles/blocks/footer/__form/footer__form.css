@@ -1,0 +1,5 @@
+.footer__form {
+  display: flex;
+  align-self: center;
+  block-size: 80px;
+}

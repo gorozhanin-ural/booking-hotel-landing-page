@@ -1,0 +1,9 @@
+.special-offers__link {
+  grid-area: link;
+  color: #65aef2;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.booking__input-button {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  block-size: 60px;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 40px;
+  color: #1e1e1e;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  background-color: #fff;
+}
+
+.booking__input-button::before {
+  content: "";
+  inline-size: 24px;
+  block-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

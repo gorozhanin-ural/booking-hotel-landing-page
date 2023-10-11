@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/pages/index.css" />
+    <title>Booking Hotel Landing Page</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link header__menu-link_active"
+              >Home</a
+            >
+          </li>
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link">About</a>
+          </li>
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link">Newsletter</a>
+          </li>
+          <li class="header__menu-list-item header__menu-logo interactive">
+            <a href="" class="header__menu-link logo">Hotel Logo</a>
+          </li>
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link">Rooms</a>
+          </li>
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link">Services</a>
+          </li>
+          <li class="header__menu-list-item interactive">
+            <a href="" class="header__menu-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">Discover Extraordinary Comfort in Hotels</h1>
+      <div class="slider__buttons">
+        <button class="slider__button interactive" type="button"></button>
+        <button
+          class="slider__button slider__button_active interactive"
+          type="button"
+        ></button>
+        <button class="slider__button interactive" type="button"></button>
+      </div>
+    </header>
+    <section class="booking">
+      <form action="/" class="booking__form">
+        <div class="booking__form-description">
+          <h2 class="booking__form-title">Book a Room</h2>
+          <p class="booking__form-subtitle">
+            Discover the perfect space for you!
+          </p>
+        </div>
+        <p class="booking__form-label booking__form-label_type_date">Date</p>
+        <fieldset
+          class="booking__form-fieldset booking__form-fieldset_type_date"
+        >
+          <div class="booking__input-group">
+            <button
+              class="booking__input-button booking__input-button_type_date interactive"
+              type="button"
+            >
+              Check Available
+            </button>
+          </div>
+        </fieldset>
+        <p class="booking__form-label booking__form-label_type_person">
+          Person
+        </p>
+        <fieldset
+          class="booking__form-fieldset booking__form-fieldset_type_person"
+        >
+          <div class="booking__input-group">
+            <button
+              class="booking__input-button booking__input-button_type_adults interactive"
+              type="button"
+            >
+              Adults
+            </button>
+            <button
+              class="booking__input-button booking__input-button_type_children interactive"
+              type="button"
+            >
+              Children
+            </button>
+          </div>
+        </fieldset>
+        <button type="submit" class="booking__submit-button interactive">
+          Book now
+        </button>
+      </form>
+    </section>
+    <section class="facilities">
+      <h2 class="visually-hidden">Facilities</h2>
+      <ul class="facilities__list">
+        <li
+          class="facilities__list-item facilities__list-item_type_rooms interactive"
+        >
+          <a href="" class="facilities__link facilities__link_type_rooms"
+            >Rooms</a
+          >
+        </li>
+        <li
+          class="facilities__list-item facilities__list-item_type_dining interactive"
+        >
+          <a href="" class="facilities__link facilities__link_type_dining"
+            >Dining</a
+          >
+        </li>
+        <li
+          class="facilities__list-item facilities__list-item_type_service interactive"
+        >
+          <a href="" class="facilities__link facilities__link_type_service"
+            >Service & Facilities</a
+          >
+        </li>
+        <li
+          class="facilities__list-item facilities__list-item_type_conferences interactive"
+        >
+          <a href="" class="facilities__link facilities__link_type_conferences"
+            >Conferences & Meetings</a
+          >
+        </li>
+        <li
+          class="facilities__list-item facilities__list-item_type_wedding interactive"
+        >
+          <a href="" class="facilities__link facilities__link_type_wedding"
+            >Wedding Package</a
+          >
+        </li>
+      </ul>
+    </section>
+    <section class="special-offers">
+      <h2 class="special-offers__title">Special Offers</h2>
+      <p class="special-offers__subtitle">Best offer of the month</p>
+      <p class="special-offers__description">
+        Experience Fantastic Benefits and Obtain Better Rates When You Make a
+        Direct Booking on Our Official Website
+      </p>
+      <a href="" class="special-offers__link interactive">View all</a>
+      <ul class="special-offers__cards">
+        <li class="special-offers__card interactive">
+          <a href="" class="special-offers__card-link">
+            <img
+              src="./images/honeymoon.jpg"
+              alt=""
+              class="special-offers__card-image"
+            />
+            <p class="special-offers__card-category">Room</p>
+            <div class="special-offers__card-heading">
+              <h3 class="special-offers__card-title">Honeymoon</h3>
+              <p class="special-offers__card-persons">2</p>
+            </div>
+            <p class="special-offers__card-description">
+              Indulge in a Memorable One-Time Romantic Dinner for Two
+            </p>
+            <p class="special-offers__card-price">
+              <span class="special-offers__card-price-accent">$699</span> /night
+            </p>
+          </a>
+        </li>
+        <li class="special-offers__card interactive">
+          <a href="" class="special-offers__card-link">
+            <img
+              src="./images/meetings.jpg"
+              alt=""
+              class="special-offers__card-image"
+            />
+            <p class="special-offers__card-category">Room</p>
+            <div class="special-offers__card-heading">
+              <h3 class="special-offers__card-title">Meetings</h3>
+              <p class="special-offers__card-persons">30</p>
+            </div>
+            <p class="special-offers__card-description">
+              Experience an Exclusively Private Environment to Boost Your
+              Productivity
+            </p>
+            <p class="special-offers__card-price">
+              <span class="special-offers__card-price-accent">$999</span> /night
+            </p>
+          </a>
+        </li>
+        <li class="special-offers__card interactive">
+          <a href="" class="special-offers__card-link">
+            <img
+              src="./images/romantic_dinning.jpg"
+              alt=""
+              class="special-offers__card-image"
+            />
+            <p class="special-offers__card-category">Dining</p>
+            <div class="special-offers__card-heading">
+              <h3 class="special-offers__card-title">Romantic Dining</h3>
+              <p class="special-offers__card-persons">2</p>
+            </div>
+            <p class="special-offers__card-description">
+              Indulge in a Memorable One-Time Romantic Dinner for Two
+            </p>
+            <p class="special-offers__card-price">
+              <span class="special-offers__card-price-accent">$499</span> /table
+            </p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <h2 class="footer__title">Newsletter & Special Promo</h2>
+      <span class="footer__logo logo">Hotel Logo</span>
+      <form action="/" class="footer__form">
+        <input
+          type="text"
+          class="footer__input"
+          placeholder="Enter your email here"
+        />
+        <button class="footer__button interactive">Subscribe</button>
+      </form>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">About us</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Contact</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Location</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">FAQ</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Term of Use</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Privacy Police</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Services & Facilities</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">Careers</a>
+          </li>
+          <li class="footer__menu-list-item interactive">
+            <a href="" class="footer__menu-link">How to book</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">
+        © Copyright Booking Hotels. All right reserved.
+      </p>
+    </footer>
+  </body>
+</html>

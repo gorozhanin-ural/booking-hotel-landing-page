@@ -1,0 +1,4 @@
+.booking__form-fieldset_type_date {
+  grid-area: date;
+  padding-inline-end: 65px;
+}

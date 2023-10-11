@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 120px 20px;
+  background-image: url("../../../images/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgb(0 52 101 / 72%) 0%,
+    rgb(0 0 0 / 0%) 100%
+  );
+}

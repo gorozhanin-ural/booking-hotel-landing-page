@@ -1,0 +1,13 @@
+.booking__input-button_type_adults {
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
+  padding-inline-end: 10px;
+}
+
+.booking__input-button_type_adults::before {
+  background-image: url("../../../../../icons/adult.svg");
+}
+
+.booking__input-button_type_adults::after {
+  content: "2";
+}

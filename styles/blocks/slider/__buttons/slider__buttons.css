@@ -1,0 +1,7 @@
+.slider__buttons {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+}

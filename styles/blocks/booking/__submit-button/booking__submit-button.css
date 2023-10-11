@@ -1,0 +1,16 @@
+.booking__submit-button {
+  grid-area: button;
+  box-sizing: border-box;
+  block-size: 60px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 40px;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: #65aef2;
+}

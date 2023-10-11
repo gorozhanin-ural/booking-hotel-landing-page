@@ -1,0 +1,21 @@
+.booking__checkbox {
+  display: grid;
+  block-size: 60px;
+  border: none;
+  border-radius: 12px;
+  color: #000;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  background-color: #fff;
+  grid-template: "ico text option" 1fr / 1fr 1fr 1fr;
+}
+
+.booking__checkbox::after {
+  content: "Adults";
+  display: block;
+  inline-size: 10px;
+  block-size: 10px;
+}

@@ -1,0 +1,5 @@
+.special-offers__card-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 20px;
+}

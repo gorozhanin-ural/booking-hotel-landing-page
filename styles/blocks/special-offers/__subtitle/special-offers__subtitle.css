@@ -1,0 +1,9 @@
+.special-offers__subtitle {
+  grid-area: subtitle;
+  margin: 0;
+  color: #000;
+  font-weight: 500;
+  font-size: 64px;
+  font-style: normal;
+  line-height: normal;
+}

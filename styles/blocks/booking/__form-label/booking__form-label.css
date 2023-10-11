@@ -1,0 +1,9 @@
+.booking__form-label {
+  justify-self: flex-start;
+  margin: 0;
+  padding-block-end: 15px;
+  color: #000;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}

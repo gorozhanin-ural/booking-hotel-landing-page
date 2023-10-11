@@ -1,0 +1,13 @@
+.footer__logo {
+  justify-self: center;
+  align-self: flex-start;
+  inline-size: 160px;
+  color: #fff;
+  font-family: Inika, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 0.64;
+  text-align: center;
+  white-space: break-spaces;
+}

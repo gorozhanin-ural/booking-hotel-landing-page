@@ -1,0 +1,7 @@
+.special-offers {
+  display: grid;
+  grid-template-areas: "title ." "subtitle link" "description ." "cards cards";
+  align-items: center;
+  padding: 80px 60px 120px;
+  background-color: #fff;
+}

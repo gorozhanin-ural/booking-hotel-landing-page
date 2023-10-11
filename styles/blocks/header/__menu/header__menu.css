@@ -1,0 +1,9 @@
+.header__menu {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  margin-block-end: 300px;
+  border-radius: 18px;
+  padding: 20px 50px;
+  background-color: #fff;
+}

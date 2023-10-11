@@ -1,0 +1,8 @@
+.booking__form-fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin: 0;
+  border: none;
+  padding: 0;
+}

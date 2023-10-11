@@ -1,0 +1,17 @@
+.footer__input {
+  box-sizing: border-box;
+  inline-size: 430px;
+  margin: 0;
+  border: none;
+  border-radius: 12px 0 0 12px;
+  padding: 25px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.footer__input::placeholder {
+  color: #d9d9d9;
+  font-style: italic;
+}

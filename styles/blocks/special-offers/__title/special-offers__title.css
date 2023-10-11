@@ -1,0 +1,10 @@
+.special-offers__title {
+  grid-area: title;
+  margin: 0;
+  margin-block-end: 20px;
+  color: #65aef2;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+}

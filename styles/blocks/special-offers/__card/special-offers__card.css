@@ -1,0 +1,7 @@
+.special-offers__card {
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: 550px;
+  border-radius: 42px;
+  box-shadow: 0 4px 60px 0 rgb(0 52 101 / 25%);
+}

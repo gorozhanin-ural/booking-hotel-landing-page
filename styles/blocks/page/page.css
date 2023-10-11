@@ -1,0 +1,8 @@
+.page {
+  inline-size: 1440px;
+  margin: 0;
+  margin: auto;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  background-color: #65aef2;
+}

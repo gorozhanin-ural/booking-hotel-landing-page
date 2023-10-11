@@ -1,0 +1,8 @@
+.footer {
+  display: grid;
+  grid-template-rows: 150px 100px 1fr;
+  grid-template-areas: "title logo" "form menu" "copyright copyright";
+  row-gap: 40px;
+  padding: 60px 55px 30px 95px;
+  background-color: #1e1e1e;
+}

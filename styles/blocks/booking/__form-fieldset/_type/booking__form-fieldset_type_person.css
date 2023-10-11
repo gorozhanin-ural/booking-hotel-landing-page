@@ -1,0 +1,4 @@
+.booking__form-fieldset_type_person {
+  grid-area: person;
+  padding-inline-end: 85px;
+}
